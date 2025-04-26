@@ -1,0 +1,123 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a0a0a;
+  color: #eee;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navegación */
+.header {
+  background-color: #111;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #f4d03f;
+}
+
+.nav-links a {
+  color: #ccc;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f4d03f;
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #222, #000);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #f4d03f;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Curiosidades */
+.curiosidades {
+  padding: 3rem 0;
+}
+
+.curiosidades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.curiosidad-card {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(244, 208, 63, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.curiosidad-card:hover {
+  transform: translateY(-5px);
+}
+
+.curiosidad-card h3 {
+  color: #f4d03f;
+  margin-bottom: 0.5rem;
+}
+
+.curiosidad-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  padding: 2rem 0;
+  text-align: center;
+  color: #aaa;
+  margin-top: 3rem;
+}
+
+.copy {
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

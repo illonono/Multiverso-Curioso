@@ -1,0 +1,134 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Header con barra de navegación moderna */
+.header {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #ffd700;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 0 0 6px #ffd700aa;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #ffd70033;
+  color: #ffd700;
+}
+
+.nav-links .active {
+  background-color: #ffd700;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Títulos */
+h1 {
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-shadow: 0 0 6px #ffd70088;
+}
+
+h2 {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Párrafos */
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Imagen ilustrativa */
+.imagen-curiosidad {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ffd70055;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+/* Botón de volver al menú o enlace */
+a.button,
+.volver {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffd700;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.button:hover,
+.volver:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+/* Línea decorativa */
+hr {
+  border: none;
+  height: 1px;
+  background: #ffd70055;
+  margin: 2rem 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ffd70033;
+}

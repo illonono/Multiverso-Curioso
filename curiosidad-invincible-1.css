@@ -1,0 +1,118 @@
+/* Archivo: curiosidades-invincible.css */
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Títulos principales */
+  h1 {
+    color: #00b8d9; /* Azul vibrante para Invincible */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-shadow: 0 0 6px #00b8d988;
+  }
+  
+  h2 {
+    color: #00b8d9;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Párrafos */
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Enlace “volver” o botón */
+  a.button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00b8d9;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.button:hover {
+    background-color: #00a3bf;
+    color: #fff;
+  }
+  
+  /* Línea de separación decorativa */
+  hr {
+    border: none;
+    height: 1px;
+    background: #00b8d955;
+    margin: 2rem 0;
+  }
+  
+  /* Imagen destacada de la curiosidad */
+  .imagen-curiosidad {
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 15px #00b8d955;
+  }
+  
+
+/* Barra de navegación moderna */
+.header {
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #00b8d9;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00b8d9;
+  text-shadow: 0 0 5px #00b8d988;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #00b8d955;
+}
+
+.nav-links .active {
+  background-color: #00b8d9;
+  color: #000;
+  font-weight: bold;
+}
