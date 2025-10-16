@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-  <!-- Google tag (gtag.js) -->
+<head>
+  <!-- Google tag (gtag.js) - colocar lo antes posible en <head> -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C163Z59GHK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ dataLayer.push(arguments); }
+
     gtag('js', new Date());
-    gtag('config', 'G-C163Z59GHK');
+    // envío estándar de vista de página
+    gtag('config', 'G-C163Z59GHK', { 'send_page_view': true });
   </script>
 
   <meta charset="UTF-8" />
@@ -32,7 +34,7 @@
   <meta name="twitter:description" content="Datos curiosos y secretos del mundo del cómic." />
   <meta name="twitter:image"       content="https://illonono.github.io/Multiverso-Curioso/preview2.png" />
 
-  <!-- Favicon -->
+  <!-- Favicon (usa URL absoluta para evitar 404 en GH Pages) -->
   <link rel="icon" href="https://illonono.github.io/Multiverso-Curioso/favicon.ico" />
 
   <title>Multiverso Curioso</title>
